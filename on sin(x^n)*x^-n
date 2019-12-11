@@ -1,0 +1,29 @@
+<!DOCTYPE html><script src="https://cdn.jsdelivr.net/npm/texme@0.7.0"></script><textarea>
+
+$2\int_{0}^{\pi^{\frac{1}{n}}}\left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right)dx$
+aka
+$\int_{-\pi^{\frac{1}{n}}}^{\pi^{\frac{1}{n}}}\left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right)dx$
+has an interesting value at n=1/2 $(4)$
+which is an integer
+This converges if $x^n$ is viewed as $a$
+and thus one gets $2\int_{0}^{\pi^{\frac{1}{n}}}\left(\frac{\sin\left({a}\right)}{a}\right)dx$
+which of course converges at infinity
+
+similar integral $\int_{-\infty}^{\infty} \left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right) dx$ evaluates indefinitely to $\dfrac{\operatorname{\Gamma}\left(-\frac{n-1}{n},-\mathrm{i}\left(x+1\right)^n\right)-\left(-1\right)^\frac{n-1}{n}\operatorname{\Gamma}\left(-\frac{n-1}{n},\mathrm{i}\left(x+1\right)^n\right)}{2\left(-\mathrm{i}\right)^\frac{1}{n}n}$ 
+
+For example when n = 3 the function evaluates to 
+$\dfrac{\mathrm{i}\left(\operatorname{\Gamma}\left(-\frac{2}{3},\mathrm{i}x^3\right)-\operatorname{\Gamma}\left(-\frac{2}{3},-\mathrm{i}x^3\right)\right)}{6}$ indefinitely
+
+
+The aforementioned calculations are based on Wolfram Alpha, the most reputable source in mathematics
+
+
+
+
+Thanks to Nathan van Brant, he has calculated the general formula of $\int_{0}^{\infty} \left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right) dx$
+he deserves full credit here
+anycase
+$\int_{0}^{\infty} \left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right) dx$ = $sin(\frac{\mathrm{\pi } }{\mathrm{} 2} \frac{\mathrm{1-n} }{\mathrm{} n})\frac{\mathrm{1 } }{\mathrm{} n}  \Gamma (\frac{\mathrm{1-n} }{\mathrm{}n})$
+
+The other case; $\int_{-\pi^{\frac{1}{n}}}^{\pi^{\frac{1}{n}}}\left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right)dx$
+can be solved with a simple u sub (of $x^n$) and then integration by parts
