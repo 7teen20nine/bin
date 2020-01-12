@@ -23,7 +23,7 @@ The aforementioned calculations are based on Wolfram Alpha, the most reputable s
 Thanks to Nathan van Brant, he has calculated the general formula of $\int_{0}^{\infty} \left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right) dx$
 he deserves full credit here
 anycase
-$\int_{0}^{\infty} \left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right) dx$ = $sin(\frac{\mathrm{\pi } }{\mathrm{} 2} \frac{\mathrm{1-n} }{\mathrm{} n})\frac{\mathrm{-1 } }{\mathrm{} n-1}  \Gamma (\frac{\mathrm{1-n} }{\mathrm{}n}) = sin(\frac{\mathrm{\pi } }{\mathrm{} 2}( \frac{\mathrm{1} }{\mathrm{} n}-1))\frac{\mathrm{-1 } }{\mathrm{} n-1} (\frac{\mathrm{1} }{\mathrm{}n}!)$
+$\int_{0}^{\infty} \left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right) dx$ = $sin(\frac{\mathrm{\pi } }{\mathrm{} 2} \frac{\mathrm{1-n} }{\mathrm{} n})\frac{\mathrm{-n } }{\mathrm{} n-1}  \Gamma (\frac{\mathrm{1-n} }{\mathrm{}n}) = sin(\frac{\mathrm{\pi } }{\mathrm{} 2}( \frac{\mathrm{1} }{\mathrm{} n}-1))\frac{\mathrm{-n } }{\mathrm{} n-1} (\frac{\mathrm{1} }{\mathrm{}n}!)$
 
 this has b
 The other case; $\int_{-\pi^{\frac{1}{n}}}^{\pi^{\frac{1}{n}}}\left(\frac{\sin\left(x^{n}\right)}{x^{n}}\right)dx$
